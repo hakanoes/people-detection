@@ -1,2 +1,5 @@
-# people-detection
-People detection with cascade classifier
+# OpenCV People Detection
+
+
+# Run
+% python3 code.py
