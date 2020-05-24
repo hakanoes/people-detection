@@ -4,7 +4,7 @@ import numpy as np
 cap = cv2.VideoCapture("video.mp4")
 people = cv2.CascadeClassifier("/home/hakanoes/people/haarcascade_fullbody.xml")
 fgbg = cv2.createBackgroundSubtractorMOG2()
-kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE,(3,3))import imutils
+kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE,(3,3))
 
 while cap.isOpened():
     ret, frame = cap.read()
