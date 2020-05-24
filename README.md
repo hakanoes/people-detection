@@ -1,5 +1,2 @@
-# OpenCV People Detection
-
-
 # Run
-% python3 code.py
+python3 code.py
